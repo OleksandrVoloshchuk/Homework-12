@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
 .wrapper {
     width: 1320px;
     margin-left: auto;
@@ -130,11 +134,11 @@ main {
     padding: 20px 20px 30px 20px;
     flex-direction: column;
     border-radius: 20px;
-    border: 1px solid #F2F2F2;
-    background: #F9F9F9;
     width: 315px;
-    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.05), -8px -8px 15px 0px #FFF;
-    gap: 25px
+    border-radius: 20px;
+    border: 1px solid  #F2F2F2;
+    background-color: #F9F9F9;
+    gap: 25px;
 }
 
 .all-cards {
@@ -171,6 +175,8 @@ main {
     color: #333;
     font-size: 22px;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .weight-card {
@@ -298,4 +304,8 @@ main {
 
 .test {
     display: flex;
+}
+
+.drop-down-link::after {
+    background-image: url(images/down.png);
 }
